@@ -32,10 +32,11 @@ export default class MainRouter {
 		}
 	}
 	public parseQueries(queries: string): { [key: string]: string } {
+		const formattedQueries = queries.replaceAll('%20', ' ');
 		const identifiedQueries: { [key: string]: string } = {};
 
 		// Gets each query parameter.
-		const splitQueries = queries.split('&');
+		const splitQueries = formattedQueries.split('&');
 
 		// Loops through and appends each valid query parameter.
 		for (const query of splitQueries) {
