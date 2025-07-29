@@ -18,7 +18,7 @@ export const scenarios: {
 					'troubleshooting step': 'cloud administrator enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'cloud administrator infrastructure challenge',
 					incident: 'cloud administrator infrastructure incident',
@@ -41,7 +41,7 @@ export const scenarios: {
 					'troubleshooting step': 'cloud engineer enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'cloud engineer infrastructure challenge',
 					incident: 'cloud engineer infrastructure incident',
@@ -64,7 +64,7 @@ export const scenarios: {
 					'troubleshooting step': 'cloud analyst enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'cloud analyst infrastructure challenge',
 					incident: 'cloud analyst infrastructure incident',
@@ -89,7 +89,7 @@ export const scenarios: {
 					'troubleshooting step': 'cybersecurity administrator enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'cybersecurity administrator infrastructure challenge',
 					incident: 'cybersecurity administrator infrastructure incident',
@@ -112,7 +112,7 @@ export const scenarios: {
 					'troubleshooting step': 'cybersecurity engineer enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'cybersecurity engineer infrastructure challenge',
 					incident: 'cybersecurity engineer infrastructure incident',
@@ -135,7 +135,7 @@ export const scenarios: {
 					'troubleshooting step': 'cybersecurity analyst enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'cybersecurity analyst infrastructure challenge',
 					incident: 'cybersecurity analyst infrastructure incident',
@@ -160,7 +160,7 @@ export const scenarios: {
 					'troubleshooting step': 'DevOps administrator enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'DevOps administrator infrastructure challenge',
 					incident: 'DevOps administrator infrastructure incident',
@@ -183,7 +183,7 @@ export const scenarios: {
 					'troubleshooting step': 'DevOps engineer enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'DevOps engineer infrastructure challenge',
 					incident: 'DevOps engineer infrastructure incident',
@@ -206,7 +206,7 @@ export const scenarios: {
 					'troubleshooting step': 'DevOps analyst enterprise troubleshooting step',
 				},
 			],
-			'Cloud Infastructure': [
+			'Cloud Infrastructure': [
 				{
 					challenge: 'DevOps analyst infrastructure challenge',
 					incident: 'DevOps analyst infrastructure incident',
