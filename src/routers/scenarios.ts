@@ -1,3 +1,3 @@
 export default class ScenariosRouter {
-	public route(req: any, res: any) {}
+	public route(method: string, queries: { [key: string]: string }, res: any) {}
 }
