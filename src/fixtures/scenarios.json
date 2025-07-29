@@ -1,0 +1,53 @@
+{
+	"Cloud Computing": {
+		"System Administrator": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		},
+		"Software Engineer": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		},
+		"On-Prem Data Center": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		}
+	},
+	"CyberSecurity": {
+		"System Administrator": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		},
+		"Software Engineer": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		},
+		"On-Prem Data Center": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		}
+	},
+	"DevOps": {
+		"SystemAdministrator": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		},
+		"Software Engineer": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		},
+		"On-Prem Data Center": {
+			"Enterprise Network": [],
+			"Cloud Infastructure": [],
+			"On-Prem Data Center": []
+		}
+	}
+}
