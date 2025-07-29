@@ -1,5 +1,5 @@
 import ScenariosService from './scenarios';
-import Scenarios from '../fixtures/scenarios.json';
+import { scenarios } from '../fixtures/scenarios';
 
 class TestScenariosService extends ScenariosService {
 	public randomScenario(technology: string, role: string, environment: string) {
@@ -18,7 +18,7 @@ describe('Scenarios Service', () => {
 		});
 	});
 	it('Returns an object with the specified parameters', () => {
-		expect(Scenarios['Cloud Computing']['Software Engineer']['On-Prem Data Center']).toContain(
+		expect(scenarios['Cloud Computing']['Software Engineer']['On-Prem Data Center']).toContain(
 			testScenariosService.randomScenario(
 				'Cloud Computing',
 				'Software Engineer',
