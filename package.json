@@ -1,0 +1,32 @@
+{
+  "name": "random-it-scenario-generator-api",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "dev": "npx nodemon src/main.ts"
+  },
+  "keywords": [],
+  "author": "Haydn Small",
+  "license": "GPL-3.0-only",
+  "description": "A RESTful api that generates a random it scenario.",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "jest-editor-support": "^32.0.0-beta.1",
+    "ts-jest": "^29.4.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  }
+}
