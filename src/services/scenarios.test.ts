@@ -12,9 +12,9 @@ describe('Scenarios Service', () => {
 
 	it('Returns challenges, incidents and troubleshooting steps', () => {
 		const result = testScenariosService.randomScenario('', '', '');
-		expect(result.challenges).toBeTruthy;
-		expect(result.incidents).toBeTruthy;
-		expect(result['troubleshooting steps']).toBeTruthy;
+		expect(result.challenge).toBeTruthy;
+		expect(result.incident).toBeTruthy;
+		expect(result['troubleshooting step']).toBeTruthy;
 	});
 	it('Returns an object with the specified parameters', () => {
 		expect(scenarios['Cloud Computing']['Software Engineer']['On-Prem Data Center']).toContain(

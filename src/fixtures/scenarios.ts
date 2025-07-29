@@ -2,9 +2,9 @@ export const scenarios: {
 	[key: string]: {
 		[key: string]: {
 			[key: string]: {
-				challenges: string[];
-				incidents: string[];
-				'troubleshooting steps': string[];
+				challenge: string;
+				incident: string;
+				'troubleshooting step': string;
 			}[];
 		};
 	};
@@ -13,73 +13,69 @@ export const scenarios: {
 		'System Administrator': {
 			'Enterprise Network': [
 				{
-					challenges: ['cloud administrator enterprise challenge 1', 'challenge 2'],
-					incidents: ['cloud administrator enterprise incident 1'],
-					'troubleshooting steps': [
-						'cloud administrator enterprise troubleshooting steps',
-						'troubleshooting step 2',
-						'troubleshooting step 3',
-					],
+					challenge: 'cloud administrator enterprise challenge',
+					incident: 'cloud administrator enterprise incident',
+					'troubleshooting step': 'cloud administrator enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['cloud administrator infrastructure challenges'],
-					incidents: ['cloud administrator infrastructure incidents'],
-					'troubleshooting steps': ['cloud administrator infrastructure troubleshooting steps'],
+					challenge: 'cloud administrator infrastructure challenge',
+					incident: 'cloud administrator infrastructure incident',
+					'troubleshooting step': 'cloud administrator infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['cloud administrator on-prem challenges'],
-					incidents: ['cloud administrator on-prem incidents'],
-					'troubleshooting steps': ['cloud administrator on-prem troubleshooting steps'],
+					challenge: 'cloud administrator on-prem challenge',
+					incident: 'cloud administrator on-prem incident',
+					'troubleshooting step': 'cloud administrator on-prem troubleshooting step',
 				},
 			],
 		},
 		'Software Engineer': {
 			'Enterprise Network': [
 				{
-					challenges: ['cloud engineer enterprise challenges'],
-					incidents: ['cloud engineer enterprise incidents'],
-					'troubleshooting steps': ['cloud engineer enterprise troubleshooting steps'],
+					challenge: 'cloud engineer enterprise challenge',
+					incident: 'cloud engineer enterprise incident',
+					'troubleshooting step': 'cloud engineer enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['cloud engineer infrastructure challenges'],
-					incidents: ['cloud engineer infrastructure incidents'],
-					'troubleshooting steps': ['cloud engineer infrastructure troubleshooting steps'],
+					challenge: 'cloud engineer infrastructure challenge',
+					incident: 'cloud engineer infrastructure incident',
+					'troubleshooting step': 'cloud engineer infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['cloud engineer on-prem challenges'],
-					incidents: ['cloud engineer on-prem incidents'],
-					'troubleshooting steps': ['cloud engineer on-prem troubleshooting steps'],
+					challenge: 'cloud engineer on-prem challenge',
+					incident: 'cloud engineer on-prem incident',
+					'troubleshooting step': 'cloud engineer on-prem troubleshooting step',
 				},
 			],
 		},
 		'Security Analyst': {
 			'Enterprise Network': [
 				{
-					challenges: ['cloud analyst enterprise challenges'],
-					incidents: ['cloud analyst enterprise incidents'],
-					'troubleshooting steps': ['cloud analyst enterprise troubleshooting steps'],
+					challenge: 'cloud analyst enterprise challenge',
+					incident: 'cloud analyst enterprise incident',
+					'troubleshooting step': 'cloud analyst enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['cloud analyst infrastructure challenges'],
-					incidents: ['cloud analyst infrastructure incidents'],
-					'troubleshooting steps': ['cloud analyst infrastructure troubleshooting steps'],
+					challenge: 'cloud analyst infrastructure challenge',
+					incident: 'cloud analyst infrastructure incident',
+					'troubleshooting step': 'cloud analyst infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['cloud analyst on-prem challenges'],
-					incidents: ['cloud analyst on-prem incidents'],
-					'troubleshooting steps': ['cloud analyst on-prem troubleshooting steps'],
+					challenge: 'cloud analyst on-prem challenge',
+					incident: 'cloud analyst on-prem incident',
+					'troubleshooting step': 'cloud analyst on-prem troubleshooting step',
 				},
 			],
 		},
@@ -88,74 +84,69 @@ export const scenarios: {
 		'System Administrator': {
 			'Enterprise Network': [
 				{
-					challenges: ['cybersecurity administrator enterprise challenge 1', 'challenge 2'],
-					incidents: ['cybersecurity administrator enterprise incident 1', 'incident 2'],
-					'troubleshooting steps': [
-						'cybersecurity administrator enterprise troubleshooting step 1',
-						'troubleshooting step 2',
-					],
+					challenge: 'cybersecurity administrator enterprise challenge',
+					incident: 'cybersecurity administrator enterprise incident',
+					'troubleshooting step': 'cybersecurity administrator enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['cybersecurity administrator infrastructure challenges'],
-					incidents: ['cybersecurity administrator infrastructure incidents'],
-					'troubleshooting steps': [
-						'cybersecurity administrator infrastructure troubleshooting steps',
-					],
+					challenge: 'cybersecurity administrator infrastructure challenge',
+					incident: 'cybersecurity administrator infrastructure incident',
+					'troubleshooting step': 'cybersecurity administrator infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['cybersecurity administrator on-prem challenges'],
-					incidents: ['cybersecurity administrator on-prem incidents'],
-					'troubleshooting steps': ['cybersecurity administrator on-prem troubleshooting steps'],
+					challenge: 'cybersecurity administrator on-prem challenge',
+					incident: 'cybersecurity administrator on-prem incident',
+					'troubleshooting step': 'cybersecurity administrator on-prem troubleshooting step',
 				},
 			],
 		},
 		'Software Engineer': {
 			'Enterprise Network': [
 				{
-					challenges: ['cybersecurity engineer enterprise challenges'],
-					incidents: ['cybersecurity engineer enterprise incidents'],
-					'troubleshooting steps': ['cybersecurity engineer enterprise troubleshooting steps'],
+					challenge: 'cybersecurity engineer enterprise challenge',
+					incident: 'cybersecurity engineer enterprise incident',
+					'troubleshooting step': 'cybersecurity engineer enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['cybersecurity engineer infrastructure challenges'],
-					incidents: ['cybersecurity engineer infrastructure incidents'],
-					'troubleshooting steps': ['cybersecurity engineer infrastructure troubleshooting steps'],
+					challenge: 'cybersecurity engineer infrastructure challenge',
+					incident: 'cybersecurity engineer infrastructure incident',
+					'troubleshooting step': 'cybersecurity engineer infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['cybersecurity engineer on-prem challenges'],
-					incidents: ['cybersecurity engineer on-prem incidents'],
-					'troubleshooting steps': ['cybersecurity engineer on-prem troubleshooting steps'],
+					challenge: 'cybersecurity engineer on-prem challenge',
+					incident: 'cybersecurity engineer on-prem incident',
+					'troubleshooting step': 'cybersecurity engineer on-prem troubleshooting step',
 				},
 			],
 		},
 		'Security Analyst': {
 			'Enterprise Network': [
 				{
-					challenges: ['cybersecurity analyst enterprise challenges'],
-					incidents: ['cybersecurity analyst enterprise incidents'],
-					'troubleshooting steps': ['cybersecurity analyst enterprise troubleshooting steps'],
+					challenge: 'cybersecurity analyst enterprise challenge',
+					incident: 'cybersecurity analyst enterprise incident',
+					'troubleshooting step': 'cybersecurity analyst enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['cybersecurity analyst infrastructure challenges'],
-					incidents: ['cybersecurity analyst infrastructure incidents'],
-					'troubleshooting steps': ['cybersecurity analyst infrastructure troubleshooting steps'],
+					challenge: 'cybersecurity analyst infrastructure challenge',
+					incident: 'cybersecurity analyst infrastructure incident',
+					'troubleshooting step': 'cybersecurity analyst infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['cybersecurity analyst on-prem challenges'],
-					incidents: ['cybersecurity analyst on-prem incidents'],
-					'troubleshooting steps': ['cybersecurity analyst on-prem troubleshooting steps'],
+					challenge: 'cybersecurity analyst on-prem challenge',
+					incident: 'cybersecurity analyst on-prem incident',
+					'troubleshooting step': 'cybersecurity analyst on-prem troubleshooting step',
 				},
 			],
 		},
@@ -164,72 +155,69 @@ export const scenarios: {
 		'System Administrator': {
 			'Enterprise Network': [
 				{
-					challenges: ['DevOps administrator enterprise challenge 1', 'challenge 2'],
-					incidents: ['DevOps administrator enterprise incident 1', 'incident 2'],
-					'troubleshooting steps': [
-						'DevOps administrator enterprise troubleshooting step 1',
-						'troubleshooting step 2',
-					],
+					challenge: 'DevOps administrator enterprise challenge ',
+					incident: 'DevOps administrator enterprise incident ',
+					'troubleshooting step': 'DevOps administrator enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['DevOps administrator infrastructure challenges'],
-					incidents: ['DevOps administrator infrastructure incidents'],
-					'troubleshooting steps': ['DevOps administrator infrastructure troubleshooting steps'],
+					challenge: 'DevOps administrator infrastructure challenge',
+					incident: 'DevOps administrator infrastructure incident',
+					'troubleshooting step': 'DevOps administrator infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['DevOps administrator on-prem challenges'],
-					incidents: ['DevOps administrator on-prem incidents'],
-					'troubleshooting steps': ['DevOps administrator on-prem troubleshooting steps'],
+					challenge: 'DevOps administrator on-prem challenge',
+					incident: 'DevOps administrator on-prem incident',
+					'troubleshooting step': 'DevOps administrator on-prem troubleshooting step',
 				},
 			],
 		},
 		'Software Engineer': {
 			'Enterprise Network': [
 				{
-					challenges: ['DevOps engineer enterprise challenges'],
-					incidents: ['DevOps engineer enterprise incidents'],
-					'troubleshooting steps': ['DevOps engineer enterprise troubleshooting steps'],
+					challenge: 'DevOps engineer enterprise challenge',
+					incident: 'DevOps engineer enterprise incident',
+					'troubleshooting step': 'DevOps engineer enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['DevOps engineer infrastructure challenges'],
-					incidents: ['DevOps engineer infrastructure incidents'],
-					'troubleshooting steps': ['DevOps engineer infrastructure troubleshooting steps'],
+					challenge: 'DevOps engineer infrastructure challenge',
+					incident: 'DevOps engineer infrastructure incident',
+					'troubleshooting step': 'DevOps engineer infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['DevOps engineer on-prem challenges'],
-					incidents: ['DevOps engineer on-prem incidents'],
-					'troubleshooting steps': ['DevOps engineer on-prem troubleshooting steps'],
+					challenge: 'DevOps engineer on-prem challenge',
+					incident: 'DevOps engineer on-prem incident',
+					'troubleshooting step': 'DevOps engineer on-prem troubleshooting step',
 				},
 			],
 		},
 		'Security Analyst': {
 			'Enterprise Network': [
 				{
-					challenges: ['DevOps analyst enterprise challenges'],
-					incidents: ['DevOps analyst enterprise incidents'],
-					'troubleshooting steps': ['DevOps analyst enterprise troubleshooting steps'],
+					challenge: 'DevOps analyst enterprise challenge',
+					incident: 'DevOps analyst enterprise incident',
+					'troubleshooting step': 'DevOps analyst enterprise troubleshooting step',
 				},
 			],
 			'Cloud Infastructure': [
 				{
-					challenges: ['DevOps analyst infrastructure challenges'],
-					incidents: ['DevOps analyst infrastructure incidents'],
-					'troubleshooting steps': ['DevOps analyst infrastructure troubleshooting steps'],
+					challenge: 'DevOps analyst infrastructure challenge',
+					incident: 'DevOps analyst infrastructure incident',
+					'troubleshooting step': 'DevOps analyst infrastructure troubleshooting step',
 				},
 			],
 			'On-Prem Data Center': [
 				{
-					challenges: ['DevOps analyst on-prem challenges'],
-					incidents: ['DevOps analyst on-prem incidents'],
-					'troubleshooting steps': ['DevOps analyst on-prem troubleshooting steps'],
+					challenge: 'DevOps analyst on-prem challenge',
+					incident: 'DevOps analyst on-prem incident',
+					'troubleshooting step': 'DevOps analyst on-prem troubleshooting step',
 				},
 			],
 		},
