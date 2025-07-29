@@ -22,7 +22,7 @@
 				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
 			}
 		},
-		"On-Prem Data Center": {
+		"Security Analyst": {
 			"Enterprise Network": {
 				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
 			},
@@ -57,7 +57,7 @@
 				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
 			}
 		},
-		"On-Prem Data Center": {
+		"Security Analyst": {
 			"Enterprise Network": {
 				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
 			},
@@ -70,7 +70,7 @@
 		}
 	},
 	"DevOps": {
-		"SystemAdministrator": {
+		"System Administrator": {
 			"Enterprise Network": {
 				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
 			},
@@ -92,7 +92,7 @@
 				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
 			}
 		},
-		"On-Prem Data Center": {
+		"Security Analyst": {
 			"Enterprise Network": {
 				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
 			},
