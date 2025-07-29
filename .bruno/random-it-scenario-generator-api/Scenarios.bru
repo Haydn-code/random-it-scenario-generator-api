@@ -1,0 +1,21 @@
+meta {
+  name: Scenarios
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{API_URL}}/scenarios?technology=Cloud Computing&role=Security Analyst&environment=Enterprise Network
+  body: none
+  auth: inherit
+}
+
+params:query {
+  technology: Cloud Computing
+  role: Security Analyst
+  environment: Enterprise Network
+}
+
+settings {
+  encodeUrl: true
+}
