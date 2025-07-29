@@ -25,14 +25,16 @@ describe('Main Router', () => {
 		};
 		testMainRouter.route(mockedReq, mockedRes);
 		expect(mockedRes.writeHead).toHaveBeenCalledWith(404);
-		expect(mockedRes.end).toHaveBeenCalledWith({
-			data: {},
-			errors: [
-				{
-					name: '404 error',
-					description: "This page doesn't exist",
-				},
-			],
-		});
+		expect(mockedRes.end).toHaveBeenCalledWith(
+			JSON.stringify({
+				data: {},
+				errors: [
+					{
+						name: '404 error',
+						description: "This page doesn't exist",
+					},
+				],
+			}),
+		);
 	});
 });

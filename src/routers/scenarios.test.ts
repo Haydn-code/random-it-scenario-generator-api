@@ -14,15 +14,17 @@ describe('Scenarios Router', () => {
 			mockedRes,
 		);
 		expect(mockedRes.writeHead).toHaveBeenCalledWith(405);
-		expect(mockedRes.end).toHaveBeenCalledWith({
-			data: {},
-			errors: [
-				{
-					name: '405 error',
-					description: 'This endpoint only supports GET requests',
-				},
-			],
-		});
+		expect(mockedRes.end).toHaveBeenCalledWith(
+			JSON.stringify({
+				data: {},
+				errors: [
+					{
+						name: '405 error',
+						description: 'This endpoint only supports GET requests',
+					},
+				],
+			}),
+		);
 	});
 	it('Succeeds on GET request', () => {
 		const testScenariosRouter = new ScenariosRouter();

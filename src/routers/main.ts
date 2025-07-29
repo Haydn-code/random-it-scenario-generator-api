@@ -18,15 +18,17 @@ export default class MainRouter {
 			default:
 				res.setHeader('Content-Type', 'application/json');
 				res.writeHead(404);
-				res.end({
-					data: {},
-					errors: [
-						{
-							name: '404 error',
-							description: "This page doesn't exist",
-						},
-					],
-				});
+				res.end(
+					JSON.stringify({
+						data: {},
+						errors: [
+							{
+								name: '404 error',
+								description: "This page doesn't exist",
+							},
+						],
+					}),
+				);
 		}
 	}
 	public parseQueries(queries: string): { [key: string]: string } {

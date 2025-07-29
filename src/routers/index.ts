@@ -6,19 +6,21 @@ export default class IndexRouter extends IndexController {
 		switch (method) {
 			case 'GET':
 				res.writeHead(200);
-				res.end(this.show);
+				res.end(JSON.stringify(this.show));
 				break;
 			default:
 				res.writeHead(405);
-				res.end({
-					data: {},
-					errors: [
-						{
-							name: '405 error',
-							description: 'This endpoint only supports GET requests',
-						},
-					],
-				});
+				res.end(
+					JSON.stringify({
+						data: {},
+						errors: [
+							{
+								name: '405 error',
+								description: 'This endpoint only supports GET requests',
+							},
+						],
+					}),
+				);
 				break;
 		}
 	}
