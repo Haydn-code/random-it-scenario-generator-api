@@ -14,7 +14,7 @@ export default class ScenariosController extends ScenariosService {
 		return {
 			data: {
 				inputs: { technology, role, environment },
-				scenario: { challenge: '', incident: '', 'troubleshooting step': '' },
+				scenario: this.randomScenario(technology, role, environment),
 			},
 		};
 	}
