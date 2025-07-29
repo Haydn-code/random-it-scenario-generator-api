@@ -1,53 +1,107 @@
 {
 	"Cloud Computing": {
 		"System Administrator": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		},
 		"Software Engineer": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		},
 		"On-Prem Data Center": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		}
 	},
-	"CyberSecurity": {
+	"Cybersecurity": {
 		"System Administrator": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		},
 		"Software Engineer": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		},
 		"On-Prem Data Center": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		}
 	},
 	"DevOps": {
 		"SystemAdministrator": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		},
 		"Software Engineer": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		},
 		"On-Prem Data Center": {
-			"Enterprise Network": [],
-			"Cloud Infastructure": [],
-			"On-Prem Data Center": []
+			"Enterprise Network": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"Cloud Infastructure": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			},
+			"On-Prem Data Center": {
+				"1": { "challenges": [], "incidents": [], "troubleshooting steps": [] }
+			}
 		}
 	}
 }
