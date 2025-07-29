@@ -6,7 +6,7 @@ export default class IndexRouter extends IndexController {
 		switch (method) {
 			case 'GET':
 				res.writeHead(200);
-				res.end(JSON.stringify(this.show));
+				res.end(JSON.stringify(this.show()));
 				break;
 			default:
 				res.writeHead(405);
