@@ -7,6 +7,7 @@ export default class IndexRouter extends IndexController {
 			case 'GET':
 				res.writeHead(200);
 				res.end(this.show);
+				break;
 			default:
 				res.writeHead(405);
 				res.end({
@@ -18,6 +19,7 @@ export default class IndexRouter extends IndexController {
 						},
 					],
 				});
+				break;
 		}
 	}
 }

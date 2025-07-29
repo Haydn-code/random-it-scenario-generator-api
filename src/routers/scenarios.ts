@@ -22,6 +22,7 @@ export default class ScenariosRouter extends ScenariosController {
 						},
 					],
 				});
+				break;
 		}
 	}
 }
